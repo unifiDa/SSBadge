@@ -96,6 +96,10 @@ if __name__ == '__main__':
     # Parse command line args
     parser = get_parser()
     args = parser.parse_args()
+    if not os.path.exists("./svg_output/"):
+	os.mkdir("./svg_output/")
+    
+
     
     if args.generateBadge:
         genSingleBadge()
@@ -142,10 +146,10 @@ if __name__ == '__main__':
             layout_fin.addLayout(layout1)
             layout_fin.addLayout(layout2)
             doc.setLayout(layout_fin)
-            doc.save('./comboBadge_'+str(outer_i)+'.svg')
+            doc.save('./svg_output/comboBadge_'+str(outer_i)+'.svg')
         ''' --------------------------------------------------------------------------------------------------- '''
     elif args.combinePostcard:
-        filler_postcard = "./postcard_v2.svg"
+        filler_postcard = "./postcard/postcard_v2.svg"
         doc = ss.Document()
             
         layout1 = ss.VBoxLayout()
@@ -168,7 +172,7 @@ if __name__ == '__main__':
         layout_fin.addLayout(layout1)
         layout_fin.addLayout(layout2)
         doc.setLayout(layout_fin)
-        doc.save('./comboPostcard_v2.svg')
+        doc.save('./svg_output/comboPostcard_v2.svg')
 
 
         
