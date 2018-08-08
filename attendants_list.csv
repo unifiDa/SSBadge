@@ -1,7 +1,7 @@
 Lastname|Firstname|Institution|Nation|Type
-StudentLastname|StudentName|Beijing Jiaotong University|China|Student
-StudentLastname|StudentName|University of Siena|Italy|Student
-SpeakerLastame|SpeakerName|University of Padua|Italy|Speaker
-SpeakerLastame|SpeakerName|École Polytechnique Fédérale de Lausanne|Switzerland|Speaker
-StaffLastame|StaffName|University of Florence|Italy|Staff
-StaffLastame|StaffName|University of Florence|Italy|Staff
+StLastname|StName|Beijing Jiaotong University|China|Student
+StLastname|SName|University of Siena|Italy|Student
+SpLastame|SpName|University of Padua|Italy|Speaker
+SpLastame|SpName|École Polytechnique Fédérale de Lausanne|Switzerland|Speaker
+SfLastame|SfName|University of Florence|Italy|Staff
+SfLastame|SfName|University of Florence|Italy|Staff
