@@ -97,7 +97,7 @@ if __name__ == '__main__':
     parser = get_parser()
     args = parser.parse_args()
     if not os.path.exists("./svg_output/"):
-	os.mkdir("./svg_output/")
+        os.mkdir("./svg_output/")
     
 
     
